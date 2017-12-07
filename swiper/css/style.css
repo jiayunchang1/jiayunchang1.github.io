@@ -64,7 +64,7 @@ body {
     top: 165px;
     left: 15%;
 }
-
+/* main */
 .s1 .main{
     top: 200px;
     position: absolute;
@@ -77,7 +77,31 @@ body {
 .s1 .main img:nth-of-type(2){
     width: 75%;
 }
-.main p{
+.main .p{
     background-image: url("../img/9.png");
-    width: 100px;
+    background-size: 100%;
+    width: 70%;
+    font-weight: bolder;
+    line-height: 30px;
+    margin-left: 15%;
+}
+/* footer*/
+
+.footer{
+    position: absolute;
+    top: 72%;
+    left: 20%;
+}
+.footer p{
+    color: #00d7b2;
+    font-weight: bolder;
+    line-height: 15px;
+}
+.footer img {
+    position: absolute;
+    bottom: -170px;
+    left: -100px;
+}
+.footer img:nth-of-type(1){
+    left: -300px;
 }
