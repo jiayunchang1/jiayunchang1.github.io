@@ -18,7 +18,6 @@ body {
     text-align: center;
     font-size: 18px;
     background: #fff;
-
     /* Center slide text vertically */
 
 }
@@ -28,4 +27,57 @@ body {
     right: auto;
     bottom: 5%;
     transform: rotatez(90deg);
+}
+/*第一页样式*/
+.s1{
+    background: url("../img/bj.png");
+    height: 100%;
+    position: relative;
+}
+.s1 .header img:nth-of-type(1){
+    width: 35px;
+    position: absolute;
+    top: 120px;
+    left: 40px;
+}
+.s1 .header img:nth-of-type(2){
+    width: 65px;
+    position: absolute;
+    top: 90px;
+    right: 30px;
+}
+.s1 .header img:nth-of-type(3){
+    width: 55px;
+    position: absolute;
+    bottom: 180px;
+    left: 35px;
+}
+.s1 .header img:nth-of-type(4){
+    width: 45px;
+    position: absolute;
+    bottom: 210px;
+    right: 45px;
+}
+.s1 .header img:nth-of-type(5){
+    width: 70%;
+    position: absolute;
+    top: 165px;
+    left: 15%;
+}
+
+.s1 .main{
+    top: 200px;
+    position: absolute;
+
+}
+.s1 .main img:nth-of-type(1){
+
+    width: 40%;
+}
+.s1 .main img:nth-of-type(2){
+    width: 75%;
+}
+.main p{
+    background-image: url("../img/9.png");
+    width: 100px;
 }
