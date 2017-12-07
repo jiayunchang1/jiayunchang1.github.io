@@ -34,7 +34,7 @@ body {
     transform: rotatez(90deg);
 }
 /*第一页样式*/
-.s1{
+.s1,.s2{
     background: url("../img/bj.png");
     height: 100%;
     position: relative;
@@ -116,4 +116,15 @@ body {
 
 .s1 .footer img:nth-of-type(2) {
     left: -95px;
+}
+.s2 h2{
+    color: #00fad3;
+    font-size: 26px;
+    position: relative;
+    top: 12%;
+}
+.s2 h2 small{
+    display: inherit;
+    font-size: 14px;
+    letter-spacing: 5px;
 }
