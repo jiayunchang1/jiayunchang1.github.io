@@ -44,30 +44,35 @@ body {
     position: absolute;
     top: 120px;
     left: 40px;
+    animation:fadeOut infinite;
 }
 .s1 .header img:nth-of-type(2){
     width: 65px;
     position: absolute;
     top: 90px;
     right: 30px;
+    animation:fadeOut infinite;
 }
 .s1 .header img:nth-of-type(3){
     width: 55px;
     position: absolute;
     bottom: 180px;
     left: 35px;
+    animation:fadeOut infinite;
 }
 .s1 .header img:nth-of-type(4){
     width: 45px;
     position: absolute;
     bottom: 210px;
     right: 45px;
+    animation:fadeOut infinite;
 }
 .s1 .header img:nth-of-type(5){
     width: 70%;
     position: absolute;
     top: 165px;
     left: 15%;
+    /*animation: flipInX infinite;*/
 }
 /* main */
 .s1 .main{
@@ -190,6 +195,8 @@ body {
     background: -webkit-gradient(linear, 0 50%, 100% 50%, from(#00ecfc), to(#00fd9d));
     background: -webkit-linear-gradient(left, #00ecfc, #00fd9d);
     background: -o-linear-gradient(left, #00ecfc, #00fd9d);
+
+
     width: 120px;
     height: 25px;
     border-radius: 10px;
