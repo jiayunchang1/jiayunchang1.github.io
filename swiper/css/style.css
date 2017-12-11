@@ -285,24 +285,30 @@ body {
 .s3 .garden1 {
     border-radius: 360px;
     border: 1px solid #02828f;
-    width: 300px;
-    height: 300px;
+    width: 220px;
+    height: 220px;
     position: absolute;
-    top: 185px;
-    left: 36px;
+    top: 200px;
+    left: 76px;
 }
-
-.s3 .garden1 img{
-    top: 78px;
+/*.s3 .garden2 {*/
+    /*border-radius: 360px;*/
+    /*border: 1px solid #02828f;*/
+    /*position: absolute;*/
+    /*width: 280px;*/
+    /*height: 280px;*/
+/*}*/
+.s3 .garden3 img{
+    top: 35px;
     position: absolute;
-    left: 74px;
+    left: 35px;
     width: 150px;
     height: 150px;
     border-radius: 360px;
 }
-.s3 .garden1 .p1 p{
-    top: 137px;
-    left: 105px;
+.s3 .garden3 .p1 p{
+    top: 96px;
+    left: 66px;
     position: absolute;
     font-size: 22px;
     color: #31fcba;
