@@ -34,7 +34,7 @@ body {
     transform: rotatez(90deg);
 }
 /*第一页样式*/
-.s1,.s2{
+.s1,.s2,.s3{
     background: url("../img/bj.png");
     height: 100%;
     position: relative;
@@ -209,4 +209,39 @@ body {
     bottom: -10px;
     left: 50%;
     margin-left: -60px;
+}
+.btn{
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    z-index: 100;
+    width: 30px;
+    height: 31px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    border: 2px solid #292929;
+    text-align: center;
+    line-height: 28px;
+    cursor: pointer;/*抓手*/
+    transform: rotateZ(0deg);/*从0开始*/
+    animation: mp3key 4s;/*动画执行的时间*/
+    /*一直执行*/
+    animation-iteration-count: infinite;
+    /*匀速执行*/
+    animation-timing-function:linear;
+    /*默认运行动画*/
+    animation-play-state:running;
+}
+
+@keyframes mp3key {
+    from {
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.btn img {
+    width: 10px;
 }

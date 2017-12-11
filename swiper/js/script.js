@@ -21,3 +21,25 @@ var swiper = new Swiper('.swiper-container', {
         }
     }
 });
+
+//音频标签
+var mp3 = document.querySelector(".mp");
+
+//音乐按钮
+var btn = document.querySelector(".btn");
+
+
+
+btn.onclick = function () {
+    if (mp3.paused) {
+        //开始旋转
+        btn.style.animationPlayState = 'running';
+        //开始音频
+        mp3.play();
+    } else {
+        //暂停旋转
+        btn.style.animationPlayState = 'paused';
+        //暂停音频
+        mp3.pause();
+    }
+}
