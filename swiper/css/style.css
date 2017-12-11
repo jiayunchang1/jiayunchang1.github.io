@@ -245,3 +245,50 @@ body {
 .btn img {
     width: 10px;
 }
+
+/*第三页样式*/
+.s3 h2{
+    color: #00fad3;
+    font-size: 26px;
+    position: relative;
+    top: 12%;
+}
+.s3 h2 small{
+    margin-top: 10px;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 5px;
+}
+.s3 h2::before,
+.s3 h2::after {
+    content: "";
+    width: 80px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+}
+
+.s3 h2::before {
+    background: url(../img/14.png);
+    background-size: contain;
+    margin-left: -95px;
+    margin-top: 10px;
+}
+
+.s3 h2::after {
+    background: url(../img/13.png);
+    background-size: contain;
+    margin-left: 66px;
+    margin-top: 10px;
+    top: 0;
+}
+.s3 .garden1 {
+
+    width: 150px;
+    height: 150px;
+    border-radius: 360px;
+    background: -webkit-linear-gradient(#005667,#03293e,#05102e,#005667);
+}
+.s3 .garden1 p{
+    font-size: 12px;
+}
