@@ -282,22 +282,34 @@ body {
     margin-top: 10px;
     top: 0;
 }
+
 .s3 .garden1 {
+    border-radius: 360px;
+    border: 1px solid #02828f;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 200px;
+    left: 38px;
+}
+.s3 .garden2 {
+    border-radius: 360px;
+    border: 1px solid #02828f;
+    position: absolute;
+    width: 260px;
+    height: 260px;
+    top: 19px;
+    left: 20px;
+}
+.s3 .garden3 {
     border-radius: 360px;
     border: 1px solid #02828f;
     width: 220px;
     height: 220px;
     position: absolute;
-    top: 200px;
-    left: 76px;
+    top: 19px;
+    left: 18px;
 }
-/*.s3 .garden2 {*/
-    /*border-radius: 360px;*/
-    /*border: 1px solid #02828f;*/
-    /*position: absolute;*/
-    /*width: 280px;*/
-    /*height: 280px;*/
-/*}*/
 .s3 .garden3 img{
     top: 35px;
     position: absolute;
