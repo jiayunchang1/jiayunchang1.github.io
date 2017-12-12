@@ -26,12 +26,16 @@ body {
     /* Center slide text vertically */
 
 }
-.swiper-button-next{
-    left: 46%;
-    top: auto;
+.swiper-button-next {
+    width: 17px;
+    height: 35px;
+    left: 50%;
     right: auto;
+    top: auto;
     bottom: 5%;
-    transform: rotatez(90deg);
+    margin-left: -13.5px;
+    transform: rotateZ(-90deg);
+    background-size: contain;
 }
 /*第一页样式*/
 .s1,.s2,.s3{
@@ -210,6 +214,30 @@ body {
     left: 50%;
     margin-left: -60px;
 }
+.s2 .footer{
+    position: absolute;
+    bottom: 0;
+    color: #00d7b2;
+    width: 100%;
+    top: 574px;
+}
+.s2 .footer p:nth-of-type(1){
+    margin-bottom: 35px;
+}
+.s2 .footer p:nth-of-type(2){
+    height: 70px;
+}
+.s2 .footer img{
+    height: 70px;
+    position: absolute;
+}
+.s2 .footer img:nth-of-type(1) {
+    left: 0;
+}
+
+.s2 .footer img:nth-of-type(2) {
+    left: -55px;
+}
 .btn{
     position: absolute;
     right: 5%;
@@ -245,6 +273,7 @@ body {
 .btn img {
     width: 10px;
 }
+
 
 /*第三页样式*/
 .s3 h2{
@@ -287,42 +316,191 @@ body {
     border-radius: 360px;
     border: 1px solid #02828f;
     position: absolute;
-    width: 300px;
-    height: 300px;
-    top: 200px;
-    left: 38px;
+    width: 310px;
+    height: 310px;
+    top: 172px;
+    left: 33px;
 }
 .s3 .garden2 {
     border-radius: 360px;
     border: 1px solid #02828f;
     position: absolute;
-    width: 260px;
-    height: 260px;
-    top: 19px;
-    left: 20px;
+    width: 280px;
+    height: 280px;
+    top: 14px;
+    left: 14px;
 }
 .s3 .garden3 {
+    border-radius: 360px;
+    border: 1px solid #02828f;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 14px;
+    left: 14px;
+}
+.s3 .garden4 {
     border-radius: 360px;
     border: 1px solid #02828f;
     width: 220px;
     height: 220px;
     position: absolute;
-    top: 19px;
-    left: 18px;
+    top: 14px;
+    left: 14px;
 }
-.s3 .garden3 img{
-    top: 35px;
-    position: absolute;
-    left: 35px;
+.s3 .garden3 .p1{
+    background: radial-gradient(#00001b,#046a79);
     width: 150px;
     height: 150px;
     border-radius: 360px;
+    top: 35px;
+    left: 32px;
+    position: absolute;
 }
 .s3 .garden3 .p1 p{
-    top: 96px;
-    left: 66px;
+    top: 63px;
+    left: 32px;
     position: absolute;
     font-size: 22px;
     color: #31fcba;
     font-weight: bold;
+    animation:bounceIn infinite;
+}
+.s3 .p2{
+    border-radius: 360px;
+    background: radial-gradient(#00001b,#046a79);
+    width: 60px;
+    height: 60px;
+    top: 183px;
+    left: 90px;
+    position: absolute;
+}
+.s3 .p2 p{
+    color: #31fcba;
+    /*font-weight: bold;*/
+    position: absolute;
+    top: 17px;
+    left: 12px;
+    animation:bounceOut infinite;
+}
+.s3 .p3{
+    border-radius: 360px;
+    background: radial-gradient(#00001b,#046a79);
+    width: 60px;
+    height: 60px;
+    top: 184px;
+    right: 90px;
+    position: absolute;
+}
+.s3 .p3 p{
+    color: #31fcba;
+    /*font-weight: bold;*/
+    position: absolute;
+    top: 17px;
+    left: 12px;
+    animation:bounceOut infinite;
+}
+.s3 .p4{
+    border-radius: 360px;
+    background: radial-gradient(#00001b,#046a79);
+    width: 60px;
+    height: 60px;
+    top: 298px;
+    left: 23px;
+    position: absolute;
+}
+.s3 .p4 p{
+    color: #31fcba;
+    /*font-weight: bold;*/
+    position: absolute;
+    top: 17px;
+    left: 12px;
+    animation:bounceOut infinite;
+}
+.s3 .p5{
+    border-radius: 360px;
+    background: radial-gradient(#00001b,#046a79);
+    width: 60px;
+    height: 60px;
+    top: 298px;
+    right: 23px;
+    position: absolute;
+}
+.s3 .p5 p{
+    color: #31fcba;
+    /*font-weight: bold;*/
+    position: absolute;
+    top: 17px;
+    left: 12px;
+    animation:bounceOut infinite;
+}
+.s3 .p6{
+    border-radius: 360px;
+    background: radial-gradient(#00001b,#046a79);
+    width: 60px;
+    height: 60px;
+    bottom: 192px;
+    left: 90px;
+    position: absolute;
+}
+.s3 .p6 p{
+    color: #31fcba;
+    /*font-weight: bold;*/
+    position: absolute;
+    top: 17px;
+    left: 12px;
+    animation:bounceOut infinite;
+}
+.s3 .p7{
+    border-radius: 360px;
+    background: radial-gradient(#00001b,#046a79);
+    width: 60px;
+    height: 60px;
+    bottom: 192px;
+    right: 90px;
+    position: absolute;
+}
+.s3 .p7 p{
+    color: #31fcba;
+    /*font-weight: bold;*/
+    position: absolute;
+    top: 17px;
+    left: 12px;
+    animation:bounceOut infinite;
+}
+.s3 .footer .xian{
+    border-left:3px solid #31f2ba;
+    height: 30px;
+    position: absolute;
+    left: 50px;
+}
+.s3 .footer p{
+    margin-bottom: 108px;
+    width: 255px;
+    font-size: 12px;
+    margin-left: 60px;
+}
+.s3 .bottom{
+    position: absolute;
+    
+    color: #00d7b2;
+    width: 100%;
+    bottom: 35px;
+}
+.s3 .bottom p:nth-of-type(1){
+    margin-bottom: 35px;
+}
+.s3 .bottom p:nth-of-type(2){
+    height: 70px;
+}
+.s3 .bottom img{
+    height: 70px;
+    position: absolute;
+}
+.s3 .bottom img:nth-of-type(1) {
+    left: 0;
+}
+
+.s3 .bottom img:nth-of-type(2) {
+    left: -55px;
 }
