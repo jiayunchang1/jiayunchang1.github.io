@@ -504,6 +504,8 @@ body {
 .s3 .bottom img:nth-of-type(2) {
     left: -23%;
 }
+
+/*第四屏*/
 .s4 h2{
     color: #00fad3;
     font-size: 26px;
@@ -561,15 +563,16 @@ body {
     height: 14px;
     background: #36ffb4;
     border-radius: 360px;
-    top: 1.5%;
+    top: 3.5%;
     left: 56%;
 
 }
 .s4 div p:nth-of-type(1){
     color: #36ffb4;
     left: 24%;
-    top: 0%;
+    top: 2%;
     position: absolute;
+    animation:flash infinite;
 }
 .s4 div  .dian2{
     border: 1px solid #36ffb4;
@@ -577,19 +580,20 @@ body {
     height: 14px;
     background: #14b8ff;
     border-radius: 360px;
-    top: 1.5%;
+    top: 3.5%;
    left: 97%;
 }
 .s4 div p:nth-of-type(2){
     color: #14b8ff;
     right: 16%;
-    top: 0%;
+    top: 2%;
     position: absolute;
+    animation:flash infinite;
 }
 .s4 div .tubiao {
-    top: 12%;
+    top: 16%;
 }
-.s4 div .tubiao p{
+.s4 div .tubiao p:nth-of-type(1){
     font-size: 14px;
     top: 0%;
     left: 0%;
@@ -604,5 +608,132 @@ body {
     left: -13%;
 }
 .s4 div .tubiao img:nth-of-type(2){
-    
+    top: 11%;
+    right: 12%;
+    position: absolute;
+    width: 220px;
+    height: 14px;
+}
+.s4 div .tubiao img:nth-of-type(3){
+    width: 128px;
+    top: 21%;
+    left: -10%;
+    position: absolute;
+}
+.s4 div .tubiao p:nth-of-type(2){
+    right: -4%;
+    top: 10%;
+    font-size: 14px;
+}
+.s4 div .tubiao p:nth-of-type(3){
+    right: 36%;
+    top: 20%;
+    font-size: 14px;
+    color: #14b8ff;
+    position: absolute;
+}
+.s4 div .tubiao2 {
+    top: 30%;
+}
+.s4 div .tubiao2 p:nth-of-type(1){
+    font-size: 14px;
+    top: 14%;
+    left: 0%;
+    color: #09dfbd;
+}
+.s4 div .tubiao2 p span{
+    color: #fff;
+}
+.s4 div .tubiao2 img:nth-of-type(1){
+    width: 19px;
+    height: 22px;
+    left: -13%;
+    top: 14%;
+}
+
+.s4 div .tubiao2 img:nth-of-type(2){
+    top: 25%;
+    right: 22%;
+    position: absolute;
+    width: 200px;
+    height: 14px;
+}
+
+.s4 div .tubiao2 p:nth-of-type(2){
+    right: 0%;
+    top: 24%;
+    font-size: 14px;
+}
+.s4 div .tubiao2 img:nth-of-type(3){
+     width: 128px;
+     top: 35%;
+     left: -10%;
+     position: absolute;
+ }
+.s4 div .tubiao2 p:nth-of-type(3){
+    right: 36%;
+    top: 33%;
+    font-size: 14px;
+    color: #14b8ff;
+    position: absolute;
+}
+
+
+
+
+.s4 div .tubiao3 {
+    top: 51%;
+}
+.s4 div .tubiao3 p:nth-of-type(1){
+    font-size: 14px;
+    top: 14%;
+    left: 0%;
+    color: #09dfbd;
+}
+.s4 div .tubiao3 p span{
+    color: #fff;
+}
+.s4 div .tubiao3 img:nth-of-type(1){
+    width: 19px;
+    height: 22px;
+    left: -13%;
+    top: 14%;
+}
+
+.s4 div .tubiao3 img:nth-of-type(2){
+    top: 25%;
+    right: 31%;
+    position: absolute;
+    width: 180px;
+    height: 14px;
+}
+
+.s4 div .tubiao3 p:nth-of-type(2){
+    right: 0%;
+    top: 24%;
+    font-size: 14px;
+}
+.s4 div .tubiao3 img:nth-of-type(3){
+    width: 128px;
+    top: 35%;
+    left: -10%;
+    position: absolute;
+}
+.s4 div .tubiao3 p:nth-of-type(3){
+    right: 36%;
+    top: 33%;
+    font-size: 14px;
+    color: #14b8ff;
+    position: absolute;
+}
+.s4 div .text{
+    top: 77%;
+    /*width: 280px;*/
+    /*left: 70px;*/
+}
+.s4 div .text p{
+    width: 260px;
+    left: -5%;
+    font-size: 14px;
+    top: 10%;
 }
