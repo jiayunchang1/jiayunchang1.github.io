@@ -893,3 +893,278 @@ body {
     bottom: 21.5%;
     right: 15%;
 }
+/*
+    第六屏
+*/
+
+.s6 h2{
+    color: #00fad3;
+    font-size: 26px;
+    position: relative;
+    top: 12%;
+}
+.s6 h2 small{
+    margin-top: 10px;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 5px;
+}
+.s6 h2::before,
+.s6 h2::after {
+    content: "";
+    width: 80px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+}
+
+.s6 h2::before {
+    background: url(../img/14.png);
+    background-size: contain;
+    margin-left: -95px;
+    margin-top: 10px;
+}
+
+.s6 h2::after {
+    background: url(../img/13.png);
+    background-size: contain;
+    margin-left: 66px;
+    margin-top: 10px;
+    top: 0;
+}
+.s6 .div1{
+    border-left: 1px dashed #1efdac;
+    height: 18%;
+    margin-left: 46px;
+    margin-top: 121px;
+}
+.s6 .div1 img:nth-of-type(1){
+    position: absolute;
+    top: 25%;
+    width: 7%;
+    left: 9%;
+}
+.s6 .div1 img:nth-of-type(2){
+    position: absolute;
+    top: 24%;
+    left: 16%;
+    height: 3%;
+}
+.s6 .div1 p:nth-of-type(1){
+    color: #000;
+    position: absolute;
+    top: 24.5%;
+    font-size: 12px;
+    left: 19%;
+}
+.s6 .div1 img:nth-of-type(3){
+    width: 69%;
+    top: 28.5%;
+    left: 16%;
+    position: absolute;
+}
+.s6 .div1 .text p{
+    color:#00fad3;
+    position: absolute;
+}
+.s6 .div1 .text p:nth-of-type(1){
+    top: 30%;
+}
+.s6 .div1 .text p:nth-of-type(2){
+    top: 33%;
+    font-size: 12px;
+    left: 19%;
+}
+.s6 .div1 .text p:nth-of-type(3){
+    top: 36%;
+    left:19%;
+    font-size: 12px;
+}
+
+
+
+.s6 .div2{
+    border-left: 1px dashed #1efdac;
+    height: 18%;
+    margin-left: 46px;
+
+}
+.s6 .div2 img:nth-of-type(1){
+    position: absolute;
+    top: 43%;
+    width: 7%;
+    left: 9%;
+}
+.s6 .div2 img:nth-of-type(2){
+    position: absolute;
+    top: 44%;
+    left: 16%;
+    height: 3%;
+}
+.s6 .div2 p:nth-of-type(1){
+    color: #000;
+    position: absolute;
+    top: 44.5%;
+    font-size: 12px;
+    left: 19%;
+}
+.s6 .div2 img:nth-of-type(3){
+    width: 69%;
+    top: 48.5%;
+    left: 16%;
+    position: absolute;
+}
+.s6 .div2 .text p{
+    color:#00fad3;
+    position: absolute;
+}
+.s6 .div2 .text p:nth-of-type(1){
+    top: 50%;
+}
+.s6 .div2 .text p:nth-of-type(2){
+    top: 53%;
+    font-size: 12px;
+    left: 19%;
+}
+.s6 .div2 .text p:nth-of-type(3){
+    top: 56%;
+    left:19%;
+    font-size: 12px;
+}
+.s6 .div3{
+    border-left: 1px dashed #1efdac;
+    height: 18%;
+    margin-left: 46px;
+
+}
+.s6 .div3 img:nth-of-type(1){
+    position: absolute;
+    bottom: 33%;
+    width: 7%;
+    left: 9%;
+}
+.s6 .div3 img:nth-of-type(2){
+    position: absolute;
+    bottom: 33%;
+    left: 16%;
+    height: 3%;
+}
+.s6 .div3 p:nth-of-type(1){
+    color: #000;
+    position: absolute;
+    bottom: 33.5%;
+    font-size: 12px;
+    left: 19%;
+}
+.s6 .div3 img:nth-of-type(3){
+    width: 69%;
+    bottom: 20.5%;
+    left: 16%;
+    position: absolute;
+}
+.s6 .div3 .text p{
+    color:#00fad3;
+    position: absolute;
+}
+.s6 .div3 .text p:nth-of-type(1){
+    top: 70%;
+}
+.s6 .div3 .text p:nth-of-type(2){
+    top: 73%;
+    font-size: 12px;
+    left: 19%;
+}
+.s6 .div3 .text p:nth-of-type(3){
+    top: 76%;
+    left:19%;
+    font-size: 12px;
+}
+/*
+    第七屏
+*/
+
+.s7 h2{
+    color: #00fad3;
+    font-size: 26px;
+    position: relative;
+    top: 12%;
+}
+.s7 h2 small{
+    margin-top: 10px;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 5px;
+}
+.s7 h2::before,
+.s7 h2::after {
+    content: "";
+    width: 80px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+}
+
+.s7 h2::before {
+    background: url(../img/14.png);
+    background-size: contain;
+    margin-left: -95px;
+    margin-top: 10px;
+}
+
+.s7 h2::after {
+    background: url(../img/13.png);
+    background-size: contain;
+    margin-left: 66px;
+    margin-top: 10px;
+    top: 0;
+}
+.s7 .input img{
+    position: absolute;
+    top: 25%;
+    width: 80%;
+    height: 55%;
+    left: 50%;
+    margin-left: -40%;
+}
+.s7 .input input{
+    position: absolute;
+}
+.s7 .input input:nth-of-type(1){
+    height: 46px;
+    width: 70%;
+    top: 30%;
+    left: 15%;
+}
+.s7 .input input:nth-of-type(2){
+    height: 46px;
+    width: 70%;
+    top: 39%;
+    left: 15%;
+}
+.s7 .input input:nth-of-type(3){
+    height: 46px;
+    width: 70%;
+    top: 48%;
+    left: 15%;
+}
+.s7 .anniu {
+    width: 70%;
+    background: #00f2ca;
+    height: 40px;
+    position: absolute;
+    left: 15%;
+    bottom: 36%;
+}
+.s7 .anniu p{
+    top: 15%;
+    position: absolute;
+    left: 42%;
+}
+.s7 .text p{
+    width: 200px;
+    left: 22%;
+    font-size: 14px;
+    bottom: 28%;
+    color: #00f2ca;
+    position: absolute;
+}
