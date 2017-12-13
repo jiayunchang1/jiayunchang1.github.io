@@ -38,7 +38,7 @@ body {
     background-size: contain;
 }
 /*第一页样式*/
-.s1,.s2,.s3,.s4{
+.s1,.s2,.s3,.s4,.s5,.s6,.s7{
     background: url("../img/bj.png");
     height: 100%;
     position: relative;
@@ -572,7 +572,7 @@ body {
     left: 24%;
     top: 2%;
     position: absolute;
-    animation:flash infinite;
+    /*animation:flash infinite;*/
 }
 .s4 div  .dian2{
     border: 1px solid #36ffb4;
@@ -588,7 +588,7 @@ body {
     right: 16%;
     top: 2%;
     position: absolute;
-    animation:flash infinite;
+    /*animation:flash infinite;*/
 }
 .s4 div .tubiao {
     top: 16%;
@@ -736,4 +736,160 @@ body {
     left: -5%;
     font-size: 14px;
     top: 10%;
+}
+/*
+    第五屏
+*/
+
+.s5 h2{
+    color: #00fad3;
+    font-size: 26px;
+    position: relative;
+    top: 12%;
+}
+.s5 h2 small{
+    margin-top: 10px;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 5px;
+}
+.s5 h2::before,
+.s5 h2::after {
+    content: "";
+    width: 80px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+}
+
+.s5 h2::before {
+    background: url(../img/14.png);
+    background-size: contain;
+    margin-left: -95px;
+    margin-top: 10px;
+}
+
+.s5 h2::after {
+    background: url(../img/13.png);
+    background-size: contain;
+    margin-left: 66px;
+    margin-top: 10px;
+    top: 0;
+}
+
+.s5 .div1 img{
+    width: 34%;
+    left: 12%;
+    top: 25%;
+    position: absolute;
+}
+.s5 .div1 p{
+    color: #00fad3;
+    font-size: 13px;
+    top: 42%;
+    left: 17%;
+    position: absolute;
+}
+.s5 .div1 span{
+    background: -moz-linear-gradient(left, #00ecfc, #00fd9d);
+    background: -webkit-gradient(linear, 0 50%, 100% 50%, from(#00ecfc), to(#00fd9d));
+    background: -webkit-linear-gradient(left, #00ecfc, #00fd9d);
+    background: -o-linear-gradient(left, #00ecfc, #00fd9d);
+    width: 100px;
+    height: 20px;
+    border-radius: 10px;
+    color: #000000;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+    position: absolute;
+    top: 45%;
+    left: 15%;
+}
+.s5 .div2 img{
+    width: 34%;
+    right: 12%;
+    top: 25%;
+    position: absolute;
+}
+.s5 .div2 p{
+    color: #00fad3;
+    font-size: 13px;
+    top: 42%;
+    right: 17%;
+    position: absolute;
+}
+.s5 .div2 span{
+    background: -moz-linear-gradient(left, #00ecfc, #00fd9d);
+    background: -webkit-gradient(linear, 0 50%, 100% 50%, from(#00ecfc), to(#00fd9d));
+    background: -webkit-linear-gradient(left, #00ecfc, #00fd9d);
+    background: -o-linear-gradient(left, #00ecfc, #00fd9d);
+    width: 100px;
+    height: 20px;
+    border-radius: 10px;
+    color: #000000;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+    position: absolute;
+    top: 45%;
+    right: 15%;
+}
+.s5 .div3 img{
+    width: 34%;
+    left: 12%;
+    top: 55%;
+    position: absolute;
+}
+.s5 .div3 p{
+    color: #00fad3;
+    font-size: 13px;
+    bottom: 25%;
+    left: 17%;
+    position: absolute;
+}
+.s5 .div3 span{
+    background: -moz-linear-gradient(left, #00ecfc, #00fd9d);
+    background: -webkit-gradient(linear, 0 50%, 100% 50%, from(#00ecfc), to(#00fd9d));
+    background: -webkit-linear-gradient(left, #00ecfc, #00fd9d);
+    background: -o-linear-gradient(left, #00ecfc, #00fd9d);
+    width: 100px;
+    height: 20px;
+    border-radius: 10px;
+    color: #000000;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+    position: absolute;
+    bottom: 21.5%;
+    left: 15%;
+}
+.s5 .div4 img{
+    width: 34%;
+    right: 12%;
+    top: 55%;
+    position: absolute;
+}
+.s5 .div4 p{
+    color: #00fad3;
+    font-size: 13px;
+    bottom: 25%;
+    right: 17%;
+    position: absolute;
+}
+.s5 .div4 span{
+    background: -moz-linear-gradient(left, #00ecfc, #00fd9d);
+    background: -webkit-gradient(linear, 0 50%, 100% 50%, from(#00ecfc), to(#00fd9d));
+    background: -webkit-linear-gradient(left, #00ecfc, #00fd9d);
+    background: -o-linear-gradient(left, #00ecfc, #00fd9d);
+    width: 100px;
+    height: 20px;
+    border-radius: 10px;
+    color: #000000;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+    position: absolute;
+    bottom: 21.5%;
+    right: 15%;
 }
