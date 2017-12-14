@@ -111,6 +111,7 @@ body {
 }
 .footer p:nth-of-type(2){
     margin-bottom: 35px;
+
 }
 .footer p:nth-of-type(3){
     height: 70px;
@@ -125,6 +126,7 @@ body {
 
 .s1 .footer img:nth-of-type(2) {
     left: -95px;
+
 }
 .s2 h2{
     color: #00fad3;
@@ -162,7 +164,7 @@ body {
     top: 0;
 }
 
-.s2 div {
+.s2 .div1 {
     position: absolute;
     top: 25%;
     width: 80%;
@@ -172,14 +174,14 @@ body {
 
 }
 
-.s2 div img {
+.s2 .div1 img {
     width: 100%;
     position: absolute;
     height: 100%;
     left: 0;
 }
 
-.s2 div p {
+.s2 .div1 p {
     text-align: left;
     padding-left: 10%;
     padding-right: 10%;
@@ -189,11 +191,11 @@ body {
     color: #03ebc4;
 }
 
-.s2 div p:nth-of-type(1) {
+.s2 .div1 p:nth-of-type(1) {
     padding-top: 20px;
 }
 
-.s2 div span {
+.s2 .div1 span {
     /*渐变色*/
     background: -moz-linear-gradient(left, #00ecfc, #00fd9d);
     background: -webkit-gradient(linear, 0 50%, 100% 50%, from(#00ecfc), to(#00fd9d));
@@ -214,30 +216,61 @@ body {
     left: 50%;
     margin-left: -60px;
 }
-.s2 .footer{
-    position: absolute;
-    bottom: 0;
-    color: #00d7b2;
-    width: 100%;
-    top: 87%;
-}
-.s2 .footer p:nth-of-type(1){
-    margin-bottom: 35px;
-}
-.s2 .footer p:nth-of-type(2){
+.footer .p {
     height: 70px;
-}
-.s2 .footer img{
-    height: 70px;
-    position: absolute;
-}
-.s2 .footer img:nth-of-type(1) {
-    left: 0;
 }
 
-.s2 .footer img:nth-of-type(2) {
-    left: -23%;
+.s2 .footer {
+    width: 100%;
+    position: absolute;
+    bottom: 10%;
 }
+
+.footer img {
+    height: 70px;
+    position: absolute;
+}
+
+.footer img:nth-of-type(1) {
+    left: 0;
+    animation: footerimg1 1.5s;
+    /*匀速*/
+    animation-timing-function: linear;
+    /*播放次数无限次*/
+    animation-iteration-count: infinite;
+    /*逆向*/
+    animation-direction: alternate;
+}
+
+@keyframes footerimg1 {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: 25px;
+    }
+}
+
+.footer img:nth-of-type(2) {
+    left: -45px;
+    animation: footerimg2 1.5s;
+    /*匀速*/
+    animation-timing-function: linear;
+    /*播放次数无限次*/
+    animation-iteration-count: infinite;
+    /*逆向*/
+    animation-direction: alternate;
+}
+
+@keyframes footerimg2 {
+    0% {
+        left: -45px;
+    }
+    100% {
+        left: -65px;
+    }
+}
+
 .btn{
     position: absolute;
     right: 5%;
@@ -504,7 +537,45 @@ body {
 .s3 .bottom img:nth-of-type(2) {
     left: -23%;
 }
+.s3.bottom img:nth-of-type(1) {
+    left: 0;
+    animation: footerimg1 1.5s;
+    /*匀速*/
+    animation-timing-function: linear;
+    /*播放次数无限次*/
+    animation-iteration-count: infinite;
+    /*逆向*/
+    animation-direction: alternate;
+}
 
+@keyframes bottomimg1 {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: 25px;
+    }
+}
+
+.s3 .bottom img:nth-of-type(2) {
+    left: -45px;
+    animation: bottomimg2 1.5s;
+    /*匀速*/
+    animation-timing-function: linear;
+    /*播放次数无限次*/
+    animation-iteration-count: infinite;
+    /*逆向*/
+    animation-direction: alternate;
+}
+
+@keyframes bottomimg2 {
+    0% {
+        left: -45px;
+    }
+    100% {
+        left: -65px;
+    }
+}
 /*第四屏*/
 .s4 h2{
     color: #00fad3;
@@ -550,14 +621,14 @@ body {
     margin-left: -40%;
 
 }
-.s4 div img:nth-of-type(1) {
+.s4 .dv img:nth-of-type(1) {
     width: 100%;
     position: absolute;
     height: 100%;
     left: 0;
     top: 0%;
 }
-.s4 div  .dian{
+.s4 .dv  .dian{
     border: 1px solid #36ffb4;
     width: 14px;
     height: 14px;
@@ -567,14 +638,14 @@ body {
     left: 56%;
 
 }
-.s4 div p:nth-of-type(1){
+.s4 .dv p:nth-of-type(1){
     color: #36ffb4;
     left: 24%;
     top: 2%;
     position: absolute;
     /*animation:flash infinite;*/
 }
-.s4 div  .dian2{
+.s4 .dv  .dian2{
     border: 1px solid #36ffb4;
     width: 14px;
     height: 14px;
@@ -583,75 +654,75 @@ body {
     top: 3.5%;
    left: 97%;
 }
-.s4 div p:nth-of-type(2){
+.s4 .dv p:nth-of-type(2){
     color: #14b8ff;
     right: 16%;
     top: 2%;
     position: absolute;
     /*animation:flash infinite;*/
 }
-.s4 div .tubiao {
+.s4 .dv .tubiao {
     top: 16%;
 }
-.s4 div .tubiao p:nth-of-type(1){
+.s4 .dv .tubiao p:nth-of-type(1){
     font-size: 14px;
     top: 0%;
     left: 0%;
     color: #09dfbd;
 }
-.s4 div .tubiao p span{
+.s4 .dv .tubiao p span{
     color: #fff;
 }
-.s4 div .tubiao img:nth-of-type(1){
+.s4 .dv .tubiao img:nth-of-type(1){
     width: 19px;
     height: 22px;
     left: -13%;
 }
-.s4 div .tubiao img:nth-of-type(2){
+.s4 .dv .tubiao img:nth-of-type(2){
     top: 11%;
     right: 12%;
     position: absolute;
     width: 220px;
     height: 14px;
 }
-.s4 div .tubiao img:nth-of-type(3){
+.s4 .dv .tubiao img:nth-of-type(3){
     width: 128px;
     top: 21%;
     left: -10%;
     position: absolute;
 }
-.s4 div .tubiao p:nth-of-type(2){
+.s4 .dv .tubiao p:nth-of-type(2){
     right: -4%;
     top: 10%;
     font-size: 14px;
 }
-.s4 div .tubiao p:nth-of-type(3){
+.s4 .dv .tubiao p:nth-of-type(3){
     right: 36%;
     top: 20%;
     font-size: 14px;
     color: #14b8ff;
     position: absolute;
 }
-.s4 div .tubiao2 {
+.s4 .dv .tubiao2 {
     top: 30%;
 }
-.s4 div .tubiao2 p:nth-of-type(1){
+.s4 .dv .tubiao2 p:nth-of-type(1){
     font-size: 14px;
     top: 14%;
     left: 0%;
     color: #09dfbd;
 }
-.s4 div .tubiao2 p span{
+.s4 .dv .tubiao2 p span{
     color: #fff;
 }
-.s4 div .tubiao2 img:nth-of-type(1){
+.s4 .dv .tubiao2 img:nth-of-type(1){
     width: 19px;
     height: 22px;
     left: -13%;
     top: 14%;
 }
 
-.s4 div .tubiao2 img:nth-of-type(2){
+.s4 .dv .tubiao2 img:nth-of-type(2){
     top: 25%;
     right: 22%;
     position: absolute;
@@ -659,18 +730,18 @@ body {
     height: 14px;
 }
 
-.s4 div .tubiao2 p:nth-of-type(2){
+.s4 .dv .tubiao2 p:nth-of-type(2){
     right: 0%;
     top: 24%;
     font-size: 14px;
 }
-.s4 div .tubiao2 img:nth-of-type(3){
+.s4 .dv .tubiao2 img:nth-of-type(3){
      width: 128px;
      top: 35%;
      left: -10%;
      position: absolute;
  }
-.s4 div .tubiao2 p:nth-of-type(3){
+.s4 .dv .tubiao2 p:nth-of-type(3){
     right: 36%;
     top: 33%;
     font-size: 14px;
@@ -681,26 +752,26 @@ body {
 
 
 
-.s4 div .tubiao3 {
+.s4 .dv .tubiao3 {
     top: 51%;
 }
-.s4 div .tubiao3 p:nth-of-type(1){
+.s4 .dv .tubiao3 p:nth-of-type(1){
     font-size: 14px;
     top: 14%;
     left: 0%;
     color: #09dfbd;
 }
-.s4 div .tubiao3 p span{
+.s4 .dv .tubiao3 p span{
     color: #fff;
 }
-.s4 div .tubiao3 img:nth-of-type(1){
+.s4 .dv .tubiao3 img:nth-of-type(1){
     width: 19px;
     height: 22px;
     left: -13%;
     top: 14%;
 }
 
-.s4 div .tubiao3 img:nth-of-type(2){
+.s4 .dv .tubiao3 img:nth-of-type(2){
     top: 25%;
     right: 31%;
     position: absolute;
@@ -708,35 +779,44 @@ body {
     height: 14px;
 }
 
-.s4 div .tubiao3 p:nth-of-type(2){
+.s4 .dv .tubiao3 p:nth-of-type(2){
     right: 0%;
     top: 24%;
     font-size: 14px;
 }
-.s4 div .tubiao3 img:nth-of-type(3){
+.s4 .dv .tubiao3 img:nth-of-type(3){
     width: 128px;
     top: 35%;
     left: -10%;
     position: absolute;
 }
-.s4 div .tubiao3 p:nth-of-type(3){
+.s4 .dv .tubiao3 p:nth-of-type(3){
     right: 36%;
     top: 33%;
     font-size: 14px;
     color: #14b8ff;
     position: absolute;
 }
-.s4 div .text{
+.s4 .dv .text{
     top: 77%;
     /*width: 280px;*/
     /*left: 70px;*/
 }
-.s4 div .text p{
+.s4 .dv .text p{
     width: 260px;
     left: -5%;
     font-size: 14px;
     top: 10%;
 }
+.s4 .footer img {
+
+    top: 117%;
+}
+
+.s4 .footer img {
+    top: 117%;
+}
+
 /*
     第五屏
 */
