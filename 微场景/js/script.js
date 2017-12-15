@@ -29,7 +29,6 @@ var mp3 = document.querySelector(".mp");
 var btn = document.querySelector(".btn");
 
 
-
 btn.onclick = function () {
     if (mp3.paused) {
         //开始旋转

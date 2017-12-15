@@ -36,6 +36,37 @@ body {
     transform: rotateZ(-90deg);
     background-size: contain;
 }
+.btn {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    z-index: 100;
+    width: 30px;
+    height: 31px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    border: 2px solid #292929;
+    text-align: center;
+    line-height: 28px;
+    cursor: pointer;
+    transform: rotateZ(0deg);
+    animation: mp3key 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-play-state: running;
+}
+@keyframes mp3key {
+    from {
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.btn img {
+    width: 10px;
+}
 /*
         第一页样式
 */
