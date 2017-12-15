@@ -115,16 +115,17 @@ body {
     border: 3px solid #a0c5ea;
     width: 50%;
     position: absolute;
-    bottom: 27%;
+    bottom: 24%;
     left: 25%;
     color: #a0c5ea;
 }
 .footer p:nth-of-type(2){
     font-size: 15px;
     position: absolute;
-    bottom: 22%;
-    left: 20%;
+    bottom: 16%;
+    left: 25%;
     color: #c2c2c2;
+    width: 50%;
 }
 /*
     第二屏
@@ -195,7 +196,7 @@ body {
     position: absolute;
     top: 14%;
     left: 22%;
-
+    border-bottom: 2px solid;
 }
 .s2 .main p:nth-of-type(2){
     color: #88b6e5;
@@ -220,4 +221,14 @@ body {
     position: absolute;
     top: 54%;
     left: 23%;
+}
+.s2 .main p:nth-of-type(5){
+    font-size: 12px;
+    position: absolute;
+    bottom: 0%;
+    color: #88b6e5;
+    padding-bottom: 20px;
+    width: 80%;
+    left: 10%;
+
 }
