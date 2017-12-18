@@ -1,40 +1,72 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <title>链接</title>
+    <title>在线项目预览仓库</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <style>
-        li{
 
-            list-style: none;
-            float: left;
-            border: 2px solid pink;
-            margin-left: 20px;
+        *{
+
+            box-sizing: border-box;
         }
         body{
-            width: 100%;
-            background: url("img/50.jpg");
+            background-image:url(img/60.jpg);
+            background-size: cover;
+
+        }
+        .thumbnail img{
+            width: 283px;
+            height: 142px;
+        }
+        .thumbnail{
             text-align: center;
+            background-image:url(img/60.jpg);
             background-size: cover;
         }
-        a{
-            font-size: 26px;
-            color: deeppink;
-        }
-        ul{
-            position: absolute;
-            left:40%;
+        .row{
+            padding: 20px;
+
         }
     </style>
 </head>
 <body>
+<h1 class="text-center">在线项目预览仓库</h1>
+
+<div class="container">
+    <div class="row">
 
 
-<ul>
-    <h2>在线预览项目</h2>
-    <li><a href="../微场景/index.html"><img src="img/102.jpg" alt=""><p>微场景</p></a></li>
-    <li><a href="../双选会/index.html" ><img src="img/55.png" alt=""><p>双选会</p></a></li>
-</ul>
+        <!--微场景-->
+
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <img src="img/102.jpg" alt="">
+                <div class="caption">
+                    <h3>微场景</h3>
+                    <p>使用Swiper制作的微场景</p>
+                    <p><a target="_blank" href="微场景/index.html" class="btn btn-primary" role="button">在线预览</a></p>
+                </div>
+            </div>
+        </div>
+        <!--微场景 双选会邀请函-->
+
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <img src="img/55.png" alt="">
+                <div class="caption">
+                    <h3>微场景双选会邀请函</h3>
+                    <p>使用Swiper制作的微场景</p>
+                    <p><a target="_blank" href="双选会/index.html" class="btn btn-primary" role="button">在线预览</a></p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
 
 
 
